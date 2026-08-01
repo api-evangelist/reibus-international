@@ -1,8 +1,31 @@
 aid: reibus-international
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reibus-international.png
 name: Reibus International
-description: Reibus International is a company surfaced as a portfolio company of battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Reibus International is an Atlanta, Georgia headquartered technology company operating a
+  digital marketplace and open-deck freight logistics platform for the industrial metals
+  industry. Reibus connects buyers and sellers of steel and other industrial metals with a
+  curated network of international and domestic carriers, offering instant freight quotes,
+  automated carrier assignment, and real-time shipment visibility tracking. The Reibus
+  Logistics platform specializes in flatbed, dry van, and dray transportation across the
+  contiguous United States, Canada, and Mexico, plus specialized services including oversized
+  loads, team drivers, expedited shipping, cross-border logistics, high-value freight, and
+  warehousing. Founded by CEO John Blount, Reibus operates across seven countries with
+  business relationships spanning more than 25 nations and is backed by Battery Ventures.
+  Reibus does not currently publish a public developer API, OpenAPI specification, or
+  developer portal; customer-facing tools (instant quote, shipment visibility dashboard) are
+  delivered through the app.reibus.com web application.
 url: https://raw.githubusercontent.com/api-evangelist/reibus-international/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +35,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Logistics
+- Freight
+- Metals
+- Marketplace
+- Transportation
+- Supply Chain
+- SaaS
 apis: []
+common:
+- type: DomainSecurity
+  url: security/reibus-international-domain-security.yml
+- type: Website
+  url: https://reibus.com/
+- type: TermsOfService
+  url: https://reibus.com/terms-conditions/
+- type: PrivacyPolicy
+  url: https://reibus.com/privacy-policy/
+- type: LLMsTxt
+  url: llms/reibus-international-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
